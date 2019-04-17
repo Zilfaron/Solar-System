@@ -1,0 +1,36 @@
+{
+  "name": "solar-system",
+  "version": "1.0.0",
+  "description": "Solar System Model",
+  "main": "main.js",
+  "scripts": {
+    "webpack-build": "webpack",
+    "webpack-dev": "webpack-dev-server --mode development --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "autoprefixer": "^9.4.10",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.6.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "postcss-base64": "^0.7.1",
+    "postcss-loader": "^3.0.0",
+    "pug-loader": "^2.4.0",
+    "resolve-url-loader": "^3.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
