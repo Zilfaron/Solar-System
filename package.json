@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "webpack-build": "webpack",
-    "webpack-dev": "webpack-dev-server --mode development --open"
+    "webpack-dev": "webpack-dev-server --hot --mode development --open"
   },
   "author": "",
   "license": "ISC",
@@ -21,6 +21,7 @@
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^4.6.0",
     "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
     "normalize.css": "^8.0.1",
     "postcss-base64": "^0.7.1",
     "postcss-loader": "^3.0.0",
@@ -30,6 +31,6 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.3.1"
+    "webpack-dev-server": "^3.2.1"
   }
 }
